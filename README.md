@@ -44,7 +44,7 @@ Trabalho Faculdade Unip Alphaville Tema Folha de Pagamento:  Projeto Realizado c
 <P>Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.23" </P>
 <P>Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.13</P>
 <P> Microsoft.EntityFrameworkCore.Tools" Version="7.0.13</P>
-<p> Utilizi um Pouco De BootStrap 4 e 5</p>
+<p> foram Utilizado um Pouco De BootStrap 4 e 5</p>
 <p> A maioria dos Icon foram Utilizado do font awesome </p>
 <p> Barra De Pesquisa / https://datatables.net/ </p>
 <p> Canva</p>
