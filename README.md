@@ -18,7 +18,9 @@
 
 https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/efabcbc1-a464-4ba3-b5de-9c76251b659c)
 
-
+<section class="container secundario">
+        <img src="[img/Notebook.png](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/efabcbc1-a464-4ba3-b5de-9c76251b659c))" alt="Demitir" class="secundarioimagem">
+    </section>
 
 
 
