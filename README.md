@@ -1,4 +1,4 @@
-<H1> #PIM CADASTRO E INFROMAÇÕES DO USUARIO (FOLHA FACIL) </H1>
+<H1> #PIM 2023 2º /// CADASTRO E INFORMAÇÕES DO USUARIO (FOLHA FACIL) </H1>
 
 
 
@@ -16,6 +16,27 @@ Trabalho Faculdade Unip Alphaville Tema Folha de Pagamento:  Projeto Realizado c
 <p> A maioria dos Icon foram Utilizado do font awesome </p>
 <p> Barra De Pesquisa / https://datatables.net/ </p>
 <p> Canva</p>
-
-  
 </H5>
+
+<H5> IMAGENS DO PROJETO EM PRODUÇÃO </H5>
+
+<H2>FOLHA FACIL </H2>
+
+
+
+<H3>TELA INICIAL</H3>
+![image](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/231e7b3f-3694-4d75-b88b-bba39757642f)
+
+
+<H3>LISTA COM OS FUNCIONARIOS CADASTRADO / ATIVOS </H3>
+![image](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/b58771d5-591f-4192-8ded-befce58a4273)
+
+<H3>EDITAR INFORMAÇÕES DO FUNCIONARIOS  </H3>
+![image](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/5be47637-d1aa-4af3-9e62-85c497d0de55)
+
+<H3>INFORMAÇÕES DO FUNCIONARIO / COM OPÇÃO PARA IMPRIMIR DAS INFORMAÇÕES DO FUNCIONARIO</H3>
+![image](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/bc946a43-11f5-4901-8120-972a9fda94eb)
+
+
+
+
