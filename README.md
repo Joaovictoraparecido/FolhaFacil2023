@@ -15,6 +15,7 @@
 <H3>INFORMAÇÕES DO FUNCIONARIO / COM OPÇÃO PARA IMPRIMIR DAS INFORMAÇÕES DO FUNCIONARIO</H3>
 ![115e7f64-128c-44c7-8525-911fc2cdca0b](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/e809c8ec-c7e4-468e-97fb-9c9d655e21be)
 <H3> DEMITIR FUNCIONARIOS // APAGAR FUNCIONARIOS </H3>
+img<
 ![5644cfb1-4f1f-4306-a918-c0abf524a9cf](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/efabcbc1-a464-4ba3-b5de-9c76251b659c)
 
 
