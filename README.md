@@ -2,31 +2,31 @@
 <H2>FOLHA FACIL </H2>
 
 <H3>TELA INICIAL</H3>
-![26bbc55b-2290-4d09-a450-0a51f1b1ee2a](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/cf248a46-1ca3-4376-8657-2a04221df1f8)
+![Pim1](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/dc7afe16-be9e-4686-91ec-942a42945acb)
+
 
 <h3>CADASTRAR FUNCIONARIOS /ATIVAR </h3>
 
+![Pim6](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/206fa3c9-529c-4c21-b2ab-cdbbfc5840fe)
+
+
 <H3>LISTA COM OS FUNCIONARIOS CADASTRADO / ATIVOS </H3>
-![aac58eea-935b-493f-a822-33b782274851](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/67463ce5-b9ec-4398-96a5-d33adbe840b8)
+
+![Pim2](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/4f807cbb-29db-4669-ab28-48f63280d763)
 
 <H3>EDITAR INFORMAÇÕES DO FUNCIONARIOS  </H3>
-![a668ee93-9a73-49c5-92f7-02026190a382](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/5993d28b-79f7-44c9-abd1-9937f8397021)
+
+![Pim3](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/64d50081-b87b-4ef1-adf8-bcfe862b4cff)
 
 <H3>INFORMAÇÕES DO FUNCIONARIO / COM OPÇÃO PARA IMPRIMIR DAS INFORMAÇÕES DO FUNCIONARIO</H3>
-![115e7f64-128c-44c7-8525-911fc2cdca0b](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/e809c8ec-c7e4-468e-97fb-9c9d655e21be)
+![Pim4](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/6650bb17-0aec-48a1-a799-310fa8dc508e)
+
+
 <H3> DEMITIR FUNCIONARIOS // APAGAR FUNCIONARIOS </H3>
-
-https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/efabcbc1-a464-4ba3-b5de-9c76251b659c)
-
+![Pim5](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/efed5dd9-cb4a-4ba3-a562-c293283ebbd9)
 
 
 
-![Pim6](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/0101f586-982e-4b1f-9ba7-898f293db827)
-![Pim5](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/216981f9-ff04-4516-b210-6e6f9b0692f0)
-![Pim4](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/9af097e8-f15b-4b43-8856-20c30cd9e808)
-![Pim3](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/7bf5bb7c-b16d-41fb-a91b-b68105a08041)
-![Pim2](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/c2453752-e3d5-4ac9-b9b9-e4fb814e5c89)
-![Pim1](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/6d166cb0-6488-46b4-8382-ab9f7e7937d1)
 
 
 <H5>
