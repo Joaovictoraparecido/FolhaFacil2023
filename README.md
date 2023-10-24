@@ -23,12 +23,13 @@
 ![Pim3](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/64d50081-b87b-4ef1-adf8-bcfe862b4cff)
 
 <H3>INFORMAÇÕES DO FUNCIONARIO / COM OPÇÃO PARA IMPRIMIR DAS INFORMAÇÕES DO FUNCIONARIO</H3>
-![Pim4](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/6650bb17-0aec-48a1-a799-310fa8dc508e)
+
+![Pim4](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/a2b19b2b-22ab-4fa9-a2cd-7ddd02a3357a)
 
 
 <H3> DEMITIR FUNCIONARIOS // APAGAR FUNCIONARIOS </H3>
-![Pim5](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/efed5dd9-cb4a-4ba3-a562-c293283ebbd9)
 
+![Pim5](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/a9614971-d7b7-4662-89a8-be7a9218b1e5)
 
 
 
