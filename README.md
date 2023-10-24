@@ -18,12 +18,15 @@
 
 https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/efabcbc1-a464-4ba3-b5de-9c76251b659c)
 
-<section class="container secundario">
-        <img src="[img/Notebook.png](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/efabcbc1-a464-4ba3-b5de-9c76251b659c))" alt="" class="secundarioimagem">
-    </section>
 
 
 
+![Pim6](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/0101f586-982e-4b1f-9ba7-898f293db827)
+![Pim5](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/216981f9-ff04-4516-b210-6e6f9b0692f0)
+![Pim4](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/9af097e8-f15b-4b43-8856-20c30cd9e808)
+![Pim3](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/7bf5bb7c-b16d-41fb-a91b-b68105a08041)
+![Pim2](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/c2453752-e3d5-4ac9-b9b9-e4fb814e5c89)
+![Pim1](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/6d166cb0-6488-46b4-8382-ab9f7e7937d1)
 
 
 <H5>
