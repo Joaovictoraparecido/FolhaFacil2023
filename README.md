@@ -5,9 +5,12 @@
 ![Pim1](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/dc7afe16-be9e-4686-91ec-942a42945acb)
 
 
+
+
+
 <h3>CADASTRAR FUNCIONARIOS /ATIVAR </h3>
 
-![Pim6](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/206fa3c9-529c-4c21-b2ab-cdbbfc5840fe)
+![Pim1](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/d746c64b-f64d-4097-ad05-7654f2f42cc7)
 
 
 <H3>LISTA COM OS FUNCIONARIOS CADASTRADO / ATIVOS </H3>
