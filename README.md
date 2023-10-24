@@ -1,16 +1,17 @@
 <H1> #PIM 2023 2º /// CADASTRO E INFORMAÇÕES DO USUARIO (FOLHA FACIL) </H1>
 <H2>FOLHA FACIL </H2>
 
+
+
+
 <H3>TELA INICIAL</H3>
-![Pim1](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/dc7afe16-be9e-4686-91ec-942a42945acb)
 
-
-
+![Pim1](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/223ef0f0-139c-4131-b99c-6541ccfb6e4f)
 
 
 <h3>CADASTRAR FUNCIONARIOS /ATIVAR </h3>
 
-![Pim1](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/d746c64b-f64d-4097-ad05-7654f2f42cc7)
+![Pim6](https://github.com/Joaovictoraparecido/FolhaFacil2023/assets/115484907/1fd69170-9abe-47d2-9b06-d702282d104a)
 
 
 <H3>LISTA COM OS FUNCIONARIOS CADASTRADO / ATIVOS </H3>
