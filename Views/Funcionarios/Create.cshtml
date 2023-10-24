@@ -1,0 +1,273 @@
+﻿@model FolhaFacil2023.Models.Funcionarios
+
+@{
+    ViewData["Title"] = "Adicionar Novo Funcionário";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url("images/FolhaFácil.png");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>Adicionar Novo Funcionário</h1>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nome">Nome</label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataNascimento">Data de Nascimento</label>
+                <input asp-for="DataNascimento" class="form-control" placeholder="DD/MM/AAAA" />
+                <span asp-validation-for="DataNascimento" class="text-danger"></span>
+            </div>
+
+            <script>
+                // Adiciona uma máscara de data ao campo
+                document.addEventListener("DOMContentLoaded", function () {
+                    var dataNascimentoInput = document.querySelector("[name='DataNascimento']");
+                    dataNascimentoInput.addEventListener("input", function () {
+                        var value = dataNascimentoInput.value;
+                        if (value.length === 2) {
+                            dataNascimentoInput.value = value + "/";
+                        } else if (value.length === 5) {
+                            dataNascimentoInput.value = value + "/";
+                        }
+                    });
+                });
+            </script>
+
+            <div class="form-group">
+                <label asp-for="Email">Email</label>
+                <input asp-for="Email" class="form-control" type="email" placeholder="Ex: seunome@dominio.com" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="RG">RG</label>
+                <input asp-for="RG" class="form-control" data-mask="00.000.000-A" placeholder="Ex: 12.345.678-9" />
+                <span asp-validation-for="RG" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CPF">CPF</label>
+                <input asp-for="CPF" class="form-control" data-mask="000.000.000-00" placeholder="Ex: 123.456.789-00" />
+                <span asp-validation-for="CPF" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Cargo">Cargo</label>
+                <input asp-for="Cargo" class="form-control" />
+                <span asp-validation-for="Cargo" class="text-danger"></span>
+            </div>
+
+
+
+            <div class="form-group">
+                <label asp-for="Salario" class="control-label">Salário</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">R$</span>
+                    </div>
+                    <input asp-for="Salario" class="form-control" id="salarioInput" />
+                </div>
+                <span asp-validation-for="Salario" class="text-danger"></span>
+            </div>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    var salarioInput = document.getElementById("salarioInput");
+
+                    salarioInput.addEventListener("input", function () {
+                        var value = salarioInput.value.replace(/\D/g, ""); // Remove todos os não-dígitos
+
+                        // Formate o valor como um número decimal
+                        var formattedValue = (parseFloat(value) / 100).toLocaleString('pt-BR', {
+                            style: 'currency',
+                            currency: 'BRL'
+                        });
+
+                        salarioInput.value = formattedValue;
+                    });
+                });
+            </script>
+
+
+            <div class="form-group">
+                <label asp-for="ValeTransporte" class="control-label">Vale Transporte</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">R$</span>
+                    </div>
+                    <input asp-for="ValeTransporte" class="form-control" id="ValeTransporteInput" />
+                </div>
+                <span asp-validation-for="ValeTransporte" class="text-danger"></span>
+            </div>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    var ValeTransporteInput = document.getElementById("ValeTransporteInput");
+
+                    ValeTransporteInput.addEventListener("input", function () {
+                        var value = ValeTransporteInput.value.replace(/\D/g, ""); // Remove todos os não-dígitos
+
+                        // Formate o valor como um número decimal
+                        var formattedValue = (parseFloat(value) / 100).toLocaleString('pt-BR', {
+                            style: 'currency',
+                            currency: 'BRL'
+                        });
+
+                        ValeTransporteInput.value = formattedValue;
+                    });
+                });
+            </script>
+
+
+
+
+@* 
+            <div class="form-group">
+                <label asp-for="ValeTransporte">Vale Transporte</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">R$</span>
+                    </div>
+                    <input asp-for="ValeTransporte" class="form-control" id="valeTransporteInput" />
+                </div>
+                <span asp-validation-for="ValeTransporte" class="text-danger"></span>
+            </div>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    var valeTransporteInput = document.getElementById("valeTransporteInput");
+
+                    valeTransporteInput.addEventListener("input", function () {
+                        // Remova todos os caracteres não numéricos, exceto o ponto decimal
+                        var value = valeTransporteInput.value.replace(/[^0-9.]/g, "");
+
+                        // Formate o valor como um número decimal
+                        var formattedValue = parseFloat(value).toLocaleString('pt-BR', {
+                            style: 'currency',
+                            currency: 'BRL'
+                        });
+
+                        valeTransporteInput.value = formattedValue;
+                    });
+                });
+            </script>
+ *@
+
+
+
+
+            <div class="form-group">
+                <label asp-for="ValeRefeicao" class="control-label">Vale Refeiçao</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">R$</span>
+                    </div>
+                    <input asp-for="ValeRefeicao" class="form-control" id="ValeRefeicaoInput" />
+                </div>
+                <span asp-validation-for="ValeRefeicao" class="text-danger"></span>
+            </div>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    var ValeRefeicaoInput = document.getElementById("ValeRefeicaoInput");
+
+                    ValeRefeicaoInput.addEventListener("input", function () {
+                        var value = ValeRefeicaoInput.value.replace(/\D/g, ""); // Remove todos os não-dígitos
+
+                        // Formate o valor como um número decimal
+                        var formattedValue = (parseFloat(value) / 100).toLocaleString('pt-BR', {
+                            style: 'currency',
+                            currency: 'BRL'
+                        });
+
+                        ValeRefeicaoInput.value = formattedValue;
+                    });
+                });
+            </script>
+
+
+
+
+          @*   <div class="form-group">
+                <label asp-for="ValeRefeicao">Vale Refeição</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">R$</span>
+                    </div>
+                    <input asp-for="ValeRefeicao" class="form-control" id="valeRefeicaoInput" />
+                </div>
+                <span asp-validation-for="ValeRefeicao" class="text-danger"></span>
+            </div>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    var valeRefeicaoInput = document.getElementById("valeRefeicaoInput");
+
+                    valeRefeicaoInput.addEventListener("input", function () {
+                        // Remova todos os caracteres não numéricos, exceto o ponto decimal
+                        var value = valeRefeicaoInput.value.replace(/[^0-9.]/g, "");
+
+                        // Formate o valor como um número decimal
+                        var formattedValue = parseFloat(value).toLocaleString('pt-BR', {
+                            style: 'currency',
+                            currency: 'BRL'
+                        });
+
+                        valeRefeicaoInput.value = formattedValue;
+                    });
+                });
+            </script> *@
+
+
+
+
+
+
+
+            <div class="form-group">
+                <input type="submit" value="Adicionar Funcionário" class="btn btn-primary" />
+            </div>
+        </form>
+        <h2><a asp-action="Index"><i class="fa fa-arrow-alt-circle-left"></i> Voltar</a></h2>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

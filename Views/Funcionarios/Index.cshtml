@@ -1,0 +1,114 @@
+﻿@model IEnumerable<FolhaFacil2023.Models.Funcionarios>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>LISTA DE FUNCIONARIOS</h1>
+<p>
+
+</p>
+
+@* 
+<p>
+    <a asp-action="Create">Create New</a>
+</p> *@
+
+
+
+<table id="myTable" class="myTable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataNascimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+          @*   <th>
+                @Html.DisplayNameFor(model => model.RG)
+            </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.CPF)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cargo)
+            </th>
+        @*     <th>
+                @Html.DisplayNameFor(model => model.Salario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ValeTransporte)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ValeRefeicao)
+            </th> *@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataNascimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+          @*   <td>
+                @Html.DisplayFor(modelItem => item.RG)
+            </td> *@
+            <td>
+                @Html.DisplayFor(modelItem => item.CPF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cargo)
+            </td>
+           @*  <td>
+                @Html.DisplayFor(modelItem => item.Salario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValeTransporte)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValeRefeicao)
+            </td> *@
+            <td>
+                    <h4>
+                        <a asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a> |
+                        <a asp-action="Details" asp-route-id="@item.Id"><i class="fa fa-search"></i></a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id"><i class="fa fa-trash"></i></a>
+                    </h4>
+               
+            </td>
+        </tr>
+}
+    </tbody>
+    <script>
+        <link rel="stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+    </script>
+</table>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var table = $('#myTable').DataTable({
+                paging: false,
+                scrollY: 300,
+                "dom": '<"top"f>rt<"bottom"lip>',
+                "language": {
+                    "search": "_INPUT_",
+                    "searchPlaceholder": "Pesquisar Funcionarios"
+                }
+            });
+        });
+    </script>
+}
+
+

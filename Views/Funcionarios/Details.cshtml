@@ -1,0 +1,110 @@
+﻿@model FolhaFacil2023.Models.Funcionarios
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1></h1>
+
+<div>
+    <div>
+        <h2>Funcionário</h2>
+
+        <hr />
+        <dl class="row">
+            <!-- Coloque aqui o código para exibir as informações do funcionário, como você já tem -->
+        </dl>
+    </div>
+
+    <div>
+        
+
+        <!-- Botão de impressão -->
+        <button id="btnImprimir" class="btn btn-primary">Imprimir</button>
+    </div>
+
+    <!-- JavaScript para acionar a impressão -->
+    <script>
+        document.getElementById('btnImprimir').addEventListener('click', function () {
+            window.print();
+        });
+    </script>
+    
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.DataNascimento)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.DataNascimento)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.RG)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.RG)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.CPF)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.CPF)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Cargo)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Cargo)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Salario)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Salario)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ValeTransporte)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ValeTransporte)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ValeRefeicao)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ValeRefeicao)
+            </dd>
+        </dl>
+</div>
+<div
+  
+    <div>
+          <h2><a asp-action="Edit" asp-route-id="@Model?.Id"><i class="fas fa-edit" style="color: #ff0000;"></i> Editar</a></h2>
+    </div>
+
+     
+
+
+       <h2><a asp-action="Index"><i class="fa fa-arrow-alt-circle-left"></i> Voltar</a></h2>
+
+    
+     
+   
+
+</div>
+
+   
+   
+   
